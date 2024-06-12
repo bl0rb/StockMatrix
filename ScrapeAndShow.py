@@ -1,12 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import openpyxl
-import re
 import time
-import plotly.express as px
-import plotly.graph_objects as go
-import json
+#Display
 from luma.led_matrix.device import max7219
 from luma.core.interface.serial import spi, noop
 from luma.core.legacy import show_message
@@ -33,7 +29,7 @@ def run():
 		] 
 	for url in urls:
 		all=[]
-		list=['RWE','AMD','EVOTEC','SALESFORCE','SIEMENS ENERGY','PALANTIER','DT TELEKOM','TUI','NOVO','ENVIPCO','MSFT','BYD']
+		list=['RWE','AMD','EVOTEC','SALESFORCE','SIEMENS ENERGY','PALANTIER','DT TELEKOM','TUI','NOVO','ENVIPCO','MSFT','BYD'] #Shortname List for Matrix Display
 		
 		page = requests.get(url,headers=headers) 
 		try: 
