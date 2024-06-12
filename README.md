@@ -1,4 +1,4 @@
-# CryptoMatrix
+# StockMatrix
 Using Raspberry Zero W 2 with a Matrix Display to monitor Stock Markets
 
 I use it to export and store all Stock data for my LTSM Model.
