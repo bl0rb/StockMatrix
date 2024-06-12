@@ -7,4 +7,4 @@ Using Raspberry Zero W 2 with a Matrix Display to monitor Stock Markets
 - A Ikea Box
 
 
-![alt text](https://github.com/bl0rb/StocksMatrix/blob/main/matrix/Matrix_Demo.jpg?raw=true)
+![alt text](https://github.com/bl0rb/StocksMatrix/blob/main/Matrix_Demo.jpg?raw=true)
